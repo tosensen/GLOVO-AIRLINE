@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+
+}
+
+.gloto{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navs ul li{
+    list-style: none;
+
+}
+
+.navs ul{
+    display: flex;
+    gap: 20px;
+}
+
+.herobox{
+    background-image: url(./IMAGES/Slider\ hero\ box\ \(1\).png);
+    height: 500px;
+}
+
+.herobox ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+    color:aliceblue;
+}
+
+.bookingsection{
+    display: flex;
+    width: 100%;
+}
+
+.bookings{
+    width: 40%;
+    background-color: aqua;
+    /* position: absolute; */
+
+    border-radius: 10px;
+    
+}
+
+.bookings button{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+  
+  .bookings button.roundtrip {
+    background-color: rgb(197, 73, 16);
+    border-radius: 20px;
+    /* color: black; */
+    padding: 10px 15px;
+  }
+  .maincontent input {
+	color: #333;
+	}
+
+    footer {
+        background-color: rgb(25, 25, 25);
+        padding-top: 50px;
+      }
+      table {
+        margin-left: -400px;
+      }
+      
+      tr,
+      td {
+        padding-right: 50px;
+      }
+      
+      td.th {
+        font-size: 16px;
+        line-height: 35px;
+        color: white;
+        text-align: left;
+        padding-top: 10px;
+      }
+      
+      td.td {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+        text-align: left;
+      }
+      
+      td.footerlinks a {
+        text-decoration: none;
+        color: rgb(197, 197, 197);
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+        text-align: left;
+      }
+      
+      td.footerlinks a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      
+      .apps {
+        display: flex;
+        flex-direction: column;
+       
+      }
+      
+      
+    .footerdivs {
+        display: flex;
+        align-items: left;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding-left: 2px;
+        
+      }
+      .footericons  {
+  font-size: 14px;
+  color: rgb(197, 197, 197);
+  padding-right: 20px;
+}
+
+
+
+.bookingsection img{
+    width: 50%;
+}
