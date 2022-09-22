@@ -27,83 +27,69 @@ nav {
   list-style: none;
 }
 
-.footer {
-  background: #5b7281;
-  width: 100%;
-  margin-top: 23px;
-  padding-top: 23px;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-bottom: 70px;
+.connect h1 {
+  font-weight: 600;
+  font-size: 38px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 70px;
 }
-.sub-footer {
-  /* justify-items: center; */
+
+.main-flex {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
   align-items: center;
 }
-.foot-logo {
+.text {
+  width: 50%;
+}
+.imagers {
+  width: 50%;
 }
 
-.first {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.imagers p {
+  text-align: center;
 }
-
-.first p {
-  font-weight: 500;
-  font-size: 16px;
-  color: #111111;
-}
-.first img {
-  cursor: pointer;
-}
-
-.second {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.second p {
-  font-weight: 500;
-  font-size: 16px;
-  color: #1b2227;
-}
-.third {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.fourth {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.fourth p {
+.heads {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 145.23%;
-  color: #f6f9fb;
-  text-align: right;
+  font-size: 24px;
+  color: #25588a;
+  margin-bottom: 20px;
+  text-decoration: underline 3px solid #25588a;
 }
 
-.sub-footer ul li,
-.sub-footer ul li a {
-  text-decoration: none;
-  list-style: none;
-  font-weight: 500;
+.deets {
+  display: flex;
+  margin-bottom: 5px;
+  gap: 30px;
+}
+.deets img {
+  height: 30px;
+  width: 30px;
+}
+.deets p,
+.off-time p,
+.helps p {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: #f6f9fb;
+  color: #000000;
 }
-
+.soci {
+  font-weight: 400;
+  font-size: 24px;
+  color: #25588a;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  text-decoration: underline 3px solid #25588a;
+  text-align: center;
+}
 .socials {
   display: flex;
   gap: 22px;
-  justify-content: right;
+  justify-content: center;
 }
 
-.subscribers {
-  padding: 10px;
+.socials img {
+  cursor: pointer;
 }

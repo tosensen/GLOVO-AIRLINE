@@ -177,7 +177,9 @@ nav {
   gap: 22px;
   justify-content: right;
 }
-
+.socials img {
+  cursor: pointer;
+}
 .subscribers {
   padding: 10px;
 }
