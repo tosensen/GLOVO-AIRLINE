@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>GLOVO AIRLINE</title>
-</head>
-<body>
-    <nav class="gloto">
-        <div class="logo">
-            <img src="./IMAGES/bro.png" alt="flying around the world">
-        </div>
-        <div class="navs">
-            <ul>
-                <li>Home</li>
-                <li>My Bookings</li>
-                <li>Where we fly</li>
-                <li>Information</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./images-pack/logo.png" alt="" /></a>
+      </div>
+      <div class="nav-items">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#">My Bookings</a></li>
+          <li><a href="where-to-fly.html">Where we Fly</a></li>
+          <li><a href="about-us.html">Information</a></li>
+          <li><a href="contact-us.html">Contact US</a></li>
+        </ul>
+      </div>
     </nav>
     <div class="herobox">
-       <ul>
-            <li>BLOOMING</li>
-            <li>WINGS FOR</li> 
-            <li>HIGHER</li>
-            <li>FLIGHT</li>
-        </ul>
+      <ul>
+        <li>BLOOMING</li>
+        <li>WINGS FOR</li>
+        <li>HIGHER</li>
+        <li>FLIGHT</li>
+      </ul>
     </div>
 
     <div class="bookingsection">
-    <div class="bookings">
-     <button class="roundtrip">ROUND TRIP</button>
-     <button>ONE WAY</button>
-     <br><br>
-     <div class="maincontent">
-         <div class="row">
-             <div class="col-sm-6 col-xm-6 abc">
-                 <h5> Flying from </h5>
-                 <input type="text" placeholder="City or airport">
-             </div>
+      <div class="bookings">
+        <button class="roundtrip">ROUND TRIP</button>
+        <button>ONE WAY</button>
+        <br /><br />
+        <div class="maincontent">
+          <div class="row">
+            <div class="col-sm-6 col-xm-6 abc">
+              <h5>Flying from</h5>
+              <input type="text" placeholder="City or airport" />
+            </div>
 
-             <div class="col-sm-6 col-xm-6 abc">
-                 <h5> Flying to </h5>
-                 <input type="text" placeholder="City or airport">
-             </div>
-         </div><br>
+            <div class="col-sm-6 col-xm-6 abc">
+              <h5>Flying to</h5>
+              <input type="text" placeholder="City or airport" />
+            </div>
+          </div>
+          <br />
 
-         <div class="row form-group">
-             <div class="col-sm-4 col-xm-6">
-                 <h5> Departure Date</h5>
-                 <input class="glyphicon glyphicon-calendar" type="date" placeholder="mm/dd/yyyy">
-             </div>
+          <div class="row form-group">
+            <div class="col-sm-4 col-xm-6">
+              <h5>Departure Date</h5>
+              <input
+                class="glyphicon glyphicon-calendar"
+                type="date"
+                placeholder="mm/dd/yyyy"
+              />
+            </div>
 
-             <div class="col-sm-4 col-xm-6">
-                 <h5> Return Date </h5>
-                 <input class="glyphicon glyphicon-calendar" type="date" placeholder="mm/dd/yyyy">
-             </div>
+            <div class="col-sm-4 col-xm-6">
+              <h5>Return Date</h5>
+              <input
+                class="glyphicon glyphicon-calendar"
+                type="date"
+                placeholder="mm/dd/yyyy"
+              />
+            </div>
 
+<<<<<<< HEAD
              <div class="col-sm-4 col-xm-6">
                  <div class="col-sm-6">
                      <h5> Adult </h5>
@@ -75,36 +85,74 @@
                     <h5> Infant </h5>
                     <input type="number" name="points"
                            min="0" max="100" step="1" value="0">
+=======
+            <div class="col-sm-4 col-xm-6">
+              <div class="col-sm-6">
+                <h5>Adult</h5>
+                <input
+                  type="number"
+                  name="points"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="1"
+                />
+              </div>
+              <div class="col-sm-6 abc">
+                <h5>Child</h5>
+                <input
+                  type="number"
+                  name="points"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="0"
+                />
+              </div>
+              <div class="col-sm-6 abc">
+                <h5>Infant</h5>
+                <input
+                  type="number"
+                  name="points"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value="0"
+                />
+              </div>
+            </div>
+            <br />
+            <br />
+            <div id="choices">
+              <div id="choiceone">
+                <label for="first">Prefered class</label>
+                <select class="form-control" id="first">
+                  <option>First Class</option>
+                  <option>Business Class</option>
+                  <option>Economic Class</option>
+                </select>
+              </div>
+              <br />
+>>>>>>> fd72232f16c768f7361ed0598550ae40d2bd6948
 
-             </div>
-         </div>
-         <br>
-         <br>
-         <div id="choices">
-             <div id="choiceone">
-                 <label for="first">Prefered class</label>
-                 <select class="form-control" id="first">
-                     <option>First Class</option>
-                     <option>Business Class</option>
-                     <option>Economic Class</option>
-                 </select>
-             </div>
-             <br>
-
-             <div id="choicetwo">
-                 <label class="checkbox-inline"><input type="checkbox" value="">Meal</label>
-                 <label class="checkbox-inline"><input type="checkbox" value="">Wifi</label>
-             </div>
-
-         </div>
-         <br>
-         <button type="button" class="btn">Search </button>
-         <br><br>
-     </div>
- </div>
-</div>
-    <img src="./IMAGES/flight-booking/bro.png" alt="">
+              <div id="choicetwo">
+                <label class="checkbox-inline"
+                  ><input type="checkbox" value="" />Meal</label
+                >
+                <label class="checkbox-inline"
+                  ><input type="checkbox" value="" />Wifi</label
+                >
+              </div>
+            </div>
+            <br />
+            <button type="button" class="btn">Search</button>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+      <img src="./IMAGES/flight-booking/bro.png" alt="" />
     </div>
+<<<<<<< HEAD
     <br> <br>
     <section class="us">
         <!-- <div class="me">
@@ -177,14 +225,70 @@
         <a href="http://www.google.com"> <img src= "./IMAGES/appstore.jpeg" width="180px" height="50px"></a>
         <a href="http://www.google.com"> <img src= "./IMAGES/googleplay.jpeg" width="180px" height="50px"></a>
        
+=======
+    <br />
+    <br />
+    <div class="about">
+      <h3>ABOUT US</h3>
+      <img src="./IMAGES/Logo 06.png" alt="logo6" /> About us
+      <img src="./IMAGES/Logo 05.png" alt="logo5" /> Our Community
+      <img src="./IMAGES/Logo 04.png" alt="logo4" /> Our People
     </div>
-         <div class="footericons">
-			<p>Connect with us on our social medias</p>
-			<img src="./IMAGES/ic_outline-facebook.svg"> 
-            <img src="./IMAGES/ant-design_instagram-filled.svg">
-			<img src="./IMAGES/akar-icons_twitter-fill.png">
-		</div>
+    <br />
+    <br />
+    <div class="register">
+      <p>
+        The Glovo advantage loyalty programme is our way of giving customers
+      </p>
+      <p>
+        a well-deserved appreciation for their decision to fly with us always!
+      </p>
+      <br />
+      <button type="button" class="btn">Register Here</button>
     </div>
-</div>
-   </footer>
+  </body>
+  <br />
+  <br />
+  <div class="footer">
+    <div class="foot-logo">
+      <a href="index.html"><img src="./images-pack/logo.png" alt="" /></a>
+    </div>
+    <div class="sub-footer">
+      <div class="first">
+        <p>Download our mobile App</p>
+        <img src="./icons-pack/google-playstore.png" alt="" />
+        <img src="./icons-pack/apple-store.png" alt="" />
+      </div>
+      <div class="second">
+        <p>Quick Links</p>
+
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="#">Manage My Bookings</a></li>
+          <li><a href="where-to-fly.html">Contact Us</a></li>
+          <li><a href="about-us.html">About Gloto Airline</a></li>
+          <li><a href="contact-us.html">Gloto Advantage</a></li>
+        </ul>
+      </div>
+      <div class="third">
+        <ul>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="fourth">
+        <p>Subscribe to our Newsletter</p>
+        <p>Get the latest on our Fares and Offers</p>
+        <input type="email" name="" id="sub" class="subscribers" />
+        <p>Connect with us on our socials</p>
+        <div class="socials">
+          <img src="./icons-pack/facebook.png" alt="" />
+          <img src="./icons-pack/instagram-filled.png" alt="" />
+          <img src="./icons-pack/twitter-fill.png" alt="" />
+        </div>
+      </div>
+>>>>>>> fd72232f16c768f7361ed0598550ae40d2bd6948
+    </div>
+  </div>
 </html>
