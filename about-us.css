@@ -27,50 +27,78 @@ nav {
   list-style: none;
 }
 
-.herobox {
-  background-image: url(./images-pack/Slider\ hero\ box.png);
-  height: 500px;
-}
-
-.herobox ul li {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding-top: 30px;
-  margin-left: 40px;
-  color: aliceblue;
-}
-
-.bookingsection {
-  display: flex;
+.imager {
   width: 100%;
+  height: 580px;
+  background: url(./images-pack/Union.png);
 }
 
-.bookings {
-  width: 40%;
-  background-color: aqua;
-  /* position: absolute; */
-
-  border-radius: 10px;
+.imager p {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 541px;
+  top: 384px;
 }
 
-.bookings button {
-  padding: 10px;
-  text-decoration: none;
-  color: rgb(42, 40, 40);
-  font-size: 10px;
-  font-weight: bolder;
-  border-radius: 15px;
+.info {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 150px;
+  margin-top: 70px;
 }
 
-.bookings button.roundtrip {
-  background-color: rgb(197, 73, 16);
-  border-radius: 20px;
-  /* color: black; */
-  padding: 10px 15px;
+.info img {
+  cursor: pointer;
 }
-.maincontent input {
-  color: #333;
+
+.crew {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.crew img {
+  cursor: pointer;
+}
+.story {
+  display: flex;
+}
+
+.stories {
+  background: #25588a;
+  width: 50%;
+  padding: 170px 120px 110px;
+}
+
+.stories h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 37px;
+}
+.stories p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.learners {
+  padding: 15px 17px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 134.77%;
+  align-items: center;
+  text-align: center;
+  color: #1a1a1a;
+  cursor: pointer;
 }
 
 .footer {
@@ -152,7 +180,6 @@ nav {
 .socials img {
   cursor: pointer;
 }
-
 .subscribers {
   padding: 10px;
 }
