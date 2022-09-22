@@ -44,14 +44,19 @@ nav {
 .bookingsection {
   display: flex;
   width: 100%;
+  padding-left: 15px;
+  padding-top: 10px;
+  
+  
+
 }
 
 .bookings {
   width: 40%;
-  background-color: aqua;
+  background-color: #f5f5f5;
   /* position: absolute; */
 
-  border-radius: 10px;
+  border-radius: 120px;
 }
 
 .bookings button {
@@ -61,6 +66,7 @@ nav {
   font-size: 10px;
   font-weight: bolder;
   border-radius: 15px;
+  margin-top: 5px;
 }
 
 .bookings button.roundtrip {
@@ -68,11 +74,46 @@ nav {
   border-radius: 20px;
   /* color: black; */
   padding: 10px 15px;
+  cursor: pointer;
 }
 .maincontent input {
   color: #333;
 }
 
+.row{
+  display: flex;
+}
+
+.great{
+  display: flex;
+}
+
+.about{
+  display: flex;
+  /* grid-template-columns: auto auto auto; */
+    width: 1200px;
+    margin: auto auto;
+    column-gap: 50px;
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
+}
+ .me{
+  text-align: center;
+}
+
+.register{
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn{
+  background-color: rgb(52, 52, 147);
+  color: #f5f5f5;
+  
+}
 .footer {
   background: #5b7281;
   width: 100%;
