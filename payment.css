@@ -64,22 +64,20 @@ main h1 {
   text-align: center;
   cursor: pointer;
 }
-.sub-navs ul {
+.sub-navss ul {
   display: flex;
-  gap: 46px;
-  justify-content: space-around;
+  gap: 34px;
+  justify-content: center;
   align-items: center;
-  padding: 27px 120px;
-  background: #ffffff;
-  border-radius: 22px;
   margin-top: 24px;
-  color: #25588a;
+  margin-bottom: 100px;
+  color: #000000;
 }
-.sub-navs ul li {
+.sub-navss ul li {
   list-style: none;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 18px;
   text-align: center;
   cursor: pointer;
 }
@@ -93,55 +91,62 @@ main h1 {
   background: #25588a;
   border-radius: 7.52219px;
 }
-
-.bookings {
+.suby {
   display: flex;
-  justify-content: space-around;
-  background: #ffffff;
-  border-radius: 7px;
-  padding: 19px 100px;
-  margin-top: 27px;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-
-.books {
-  display: flex;
-  gap: 200px;
-}
-.books p {
-  font-weight: 800;
-  font-size: 36px;
-  text-align: center;
-  color: #777777;
-}
-
-.books-cover {
+.forms {
   display: flex;
   flex-direction: column;
+  gap: 38px;
+  width: 50%;
+}
+.flexy {
+  display: flex;
+  gap: 64px;
 }
 
-.time {
-  text-align: center;
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 23px;
-  color: #777777;
+input::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a1a;
+  position: fixed;
+  top: 1;
+  left: 2;
 }
 
-.select {
-  justify-content: center;
-  align-items: center;
-  padding: 12px 40px;
-  background: #25588a;
-  border-radius: 7px;
-  color: #ffffff;
+.num {
+  border: 1px solid #1b2227;
+  border-radius: 4px;
+  padding: 5px 15px 10px;
+  width: 704px;
+  height: 80px;
 }
-hr {
-  border: 2px solid #777777;
+.name {
+  border: 1px solid #1b2227;
+  border-radius: 4px;
+  padding: 5px 15px 10px;
+  width: 646px;
+  height: 80px;
+}
+.date {
+  border: 1px solid #1b2227;
+  border-radius: 4px;
+  padding: 5px 15px 10px;
+  width: 165px;
+  height: 78px;
+}
+.cvv {
+  border: 1px solid #1b2227;
+  border-radius: 4px;
+  padding: 5px 10px 10px;
+  width: 92px;
+  height: 78px;
 }
 
-.cont {
-  margin: 130px auto 0;
+.pays {
+  margin: 7px auto 0;
   justify-content: center;
   align-items: center;
   padding: 11px;
@@ -154,4 +159,11 @@ hr {
   font-size: 25px;
   text-align: center;
   cursor: pointer;
+}
+.cards {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  justify-content: center;
+  cursor: not-allowed;
 }
