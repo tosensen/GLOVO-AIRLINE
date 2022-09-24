@@ -110,9 +110,9 @@ select {
   box-shadow: 0px 3.97133px 3.97133px rgba(0, 0, 0, 0.25);
 }
 input::placeholder {
-  font-weight: 700;
-  font-size: 16px;
-  color: #1a1a1a;
+  font-weight: 500;
+  font-size: 21.4689px;
+  color: #777777;
   position: fixed;
   top: 1;
   left: 2;
@@ -130,6 +130,9 @@ input::placeholder {
   width: 124px;
   height: 70px;
   margin-right: 74px;
+  font-weight: 500;
+  font-size: 21px;
+  color: #777777;
 }
 .house {
   padding: 9px;
