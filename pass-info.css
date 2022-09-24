@@ -93,65 +93,60 @@ main h1 {
   background: #25588a;
   border-radius: 7.52219px;
 }
-
-.departure {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-top: 51px;
-}
-
-.departure p {
-  font-weight: 400;
-  font-size: 24px;
-  text-align: center;
-  color: #1a1a1a;
-}
-
-.bookings {
-  display: flex;
-  justify-content: space-around;
-  background: #ffffff;
-  border-radius: 7px;
-  padding: 19px 100px;
-  margin-top: 27px;
-  align-items: center;
-}
-
-.books {
-  display: flex;
-  gap: 200px;
-}
-.books p {
-  font-weight: 800;
-  font-size: 36px;
-  text-align: center;
-  color: #777777;
-}
-
-.books-cover {
+.forms {
   display: flex;
   flex-direction: column;
+  gap: 38px;
+  margin-top: 63px;
+}
+.flexy {
+  display: flex;
+  gap: 20px;
+}
+input,
+select {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3.97133px 3.97133px rgba(0, 0, 0, 0.25);
+}
+input::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a1a;
+  position: fixed;
+  top: 1;
+  left: 2;
 }
 
-.time {
-  text-align: center;
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 23px;
-  color: #777777;
+.sor,
+.tele {
+  padding: 9px;
+  width: 276px;
+  height: 68px;
+  margin-right: 110px;
 }
-
-.select {
-  justify-content: center;
-  align-items: center;
-  padding: 12px 40px;
-  background: #25588a;
-  border-radius: 7px;
-  color: #ffffff;
+.title {
+  padding: 7px;
+  width: 124px;
+  height: 70px;
+  margin-right: 74px;
 }
-hr {
-  border: 2px solid #777777;
+.house {
+  padding: 9px;
+  width: 573px;
+  height: 68px;
+}
+.city {
+  padding: 9px;
+  width: 194px;
+  height: 70px;
+}
+.fname,
+.lname,
+.email {
+  padding: 9px;
+  width: 475px;
+  height: 71px;
 }
 
 .cont {
