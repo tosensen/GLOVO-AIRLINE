@@ -21,10 +21,20 @@ nav {
   gap: 12px;
   text-decoration: none;
   list-style: none;
+  padding: 7px 43px;
+  background: #ffffff;
+  border-radius: 9px;
 }
 .nav-items ul li a {
   text-decoration: none;
   list-style: none;
+  font-weight: 400;
+  font-size: 18.1187px;
+  color: #1b2227;
+}
+
+.nav-items a.active {
+  text-decoration: underline 2px solid #25588a;
 }
 
 .sub-head {

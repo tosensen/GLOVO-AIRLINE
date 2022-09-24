@@ -25,6 +25,13 @@ nav {
 .nav-items ul li a {
   text-decoration: none;
   list-style: none;
+  font-weight: 400;
+  font-size: 18.1187px;
+  color: #1b2227;
+}
+
+.nav-items a.active {
+  text-decoration: underline 2px solid #25588a;
 }
 
 .herobox {
@@ -46,9 +53,6 @@ nav {
   width: 100%;
   padding-left: 15px;
   padding-top: 10px;
-  
-  
-
 }
 
 .bookings {
@@ -80,39 +84,37 @@ nav {
   color: #333;
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.great{
+.great {
   display: flex;
 }
 
-.about{
+.about {
   display: flex;
   /* grid-template-columns: auto auto auto; */
-    width: 1200px;
-    margin: auto auto;
-    column-gap: 50px;
-    margin-top: 80px;
-    background-color: #f5f5f5;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  
+  width: 1200px;
+  margin: auto auto;
+  column-gap: 50px;
+  margin-top: 80px;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
- .me{
+.me {
   text-align: center;
 }
 
-.register{
+.register {
   text-align: center;
   font-size: 20px;
 }
 
-.btn{
+.btn {
   background-color: rgb(55, 126, 170);
   color: #f5f5f5;
-  
 }
 .footer {
   background: #5b7281;
