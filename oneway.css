@@ -89,8 +89,8 @@
   }
   
   .about{
-    display: flex;
-    /* grid-template-columns: auto auto auto; */
+    display: block;
+    grid-template-columns: auto auto auto;
       width: 1200px;
       margin: auto auto;
       column-gap: 50px;
