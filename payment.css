@@ -94,20 +94,6 @@ main h1 {
   border-radius: 7.52219px;
 }
 
-.departure {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-top: 51px;
-}
-
-.departure p {
-  font-weight: 400;
-  font-size: 24px;
-  text-align: center;
-  color: #1a1a1a;
-}
-
 .bookings {
   display: flex;
   justify-content: space-around;
