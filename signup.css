@@ -1,4 +1,9 @@
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }body{
     margin: 0px;
     padding: 0px;
     background-color: white;
@@ -14,13 +19,15 @@ body{
     text-align: center;
     color: blue;
     padding-top: 100px;
+    padding-right: 220px;
+    padding-bottom: 0px;
 }
-.item2-2,{
+.item2-2{
     border-radius: 8px;
 }
 
 .item2-2{
-    width: 100%;
+    width: 70%;
     background-color: white;
     height: 420px;
     box-sizing: border-box;
@@ -81,7 +88,7 @@ button{
     outline: none;
     font-size: 0.8em;
     letter-spacing: 0.1em;
-    padding: 18px;
+    padding: 10px;
     border-bottom: 3px rgb(40, 40, 43) solid;
     cursor: pointer;
 }
@@ -90,8 +97,8 @@ button:hover{
     color: white;
 }
 
-button.mine{
-    text-align: center;
+/* button.mine{
+    text-align: center; */
 }
 .item2-2 p{
     padding: 8px 0px;

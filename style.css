@@ -74,7 +74,7 @@ nav {
 }
 
 .bookings button.roundtrip {
-  background-color: rgb(197, 73, 16);
+  background-color: rgb(68, 69, 158);
   border-radius: 20px;
   /* color: black; */
   padding: 10px 15px;
@@ -113,8 +113,9 @@ nav {
 }
 
 .btn {
-  background-color: rgb(55, 126, 170);
+  background-color: rgb(68, 69, 158);
   color: #f5f5f5;
+  
 }
 .footer {
   background: #5b7281;
