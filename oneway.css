@@ -71,7 +71,7 @@
   
   .bookings button.oneway {
     background-color: rgb(68, 69, 158);
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* color: black; */
     padding: 10px 15px;
     cursor: pointer;

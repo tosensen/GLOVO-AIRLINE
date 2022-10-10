@@ -114,8 +114,8 @@ nav {
 
 .btn {
   background-color: rgb(68, 69, 158);
-  color: #f5f5f5;
-  
+  font-size: large;
+  /* color: #f5f5f5; */
 }
 .footer {
   background: #5b7281;
