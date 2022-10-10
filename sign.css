@@ -7,8 +7,10 @@ body {
     width: 100%;
     background-color: #f5f5f5;
     background-image: url(./icons-pack/Rectangle\ 6.png);
+  }
 
-  
+  .raw {
+    position: absolute;
   }
 .login-page {
     width: 360px;
