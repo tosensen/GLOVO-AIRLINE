@@ -96,6 +96,8 @@ nav {
   width: 113px;
   height: 39px;
   color: #FFFFFF;
+  outline: none;
+  border: none;
 }
 .bookings a{
   /* background-color: white; */
@@ -137,6 +139,7 @@ border-radius: 8px;
   padding: 0.3rem;
   border: 1px solid #777777;
 border-radius: 8px;
+
 }
 .pics img{
   /* float: right; */
@@ -144,6 +147,7 @@ border-radius: 8px;
   justify-content: right;
   text-align: right;
   border-bottom: ;
+  padding-left: 300px;
 }
 
 .maincontent input {
