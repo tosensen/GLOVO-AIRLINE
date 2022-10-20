@@ -26,7 +26,14 @@
   .nav-items ul li a {
     text-decoration: none;
     list-style: none;
+    font-weight: 400;
+    font-size: 18.1187px;
+    color: #1b2227;
   }
+
+  .nav-items a.active {
+  text-decoration: underline 2px solid #25588a;
+}
   
   .herobox {
     background-image: url(./images-pack/Slider\ hero\ box.png);
@@ -36,7 +43,6 @@
   .herobox ul li {
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
     padding-top: 50px;
     margin-left: 100px;
     color: #FFFFFF;
@@ -47,30 +53,24 @@
   
   .bookingsection {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     padding-left: 15px;
     padding-top: 10px;
     background-color: #F6F9FB;
-    position: relative;
+    /* position: relative; */
+    justify-content: space-around;
+    gap: 3rem;
   }
   
   .bookings {
-    width: 40%;
+    /* width: 40%; */
     background-color: #f5f5f5;
-    /* position: absolute; */
-  
-    border-radius: 120px;
+    position: relative;
+    padding: 1rem 2rem 1.5rem 0.5rem;
+    left: 5rem;
+    bottom:4rem;
+    border-radius: 10px;
   }
-  
-  /* .bookings button {
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(42, 40, 40);
-    font-size: 10px;
-    font-weight: bolder;
-    border-radius: 15px;
-    margin-top: 5px;
-  } */
   
   .oneway {
   background-color: #25588A;
@@ -128,13 +128,10 @@
     border: 1px solid #777777;
   border-radius: 8px;
   }
-  .pics img{
-    /* float: right; */
-    display: block;
-    justify-content: right;
-    text-align: right;
-    border-bottom: ;
-    padding-left: 300px;
+  .pics {
+    float: right;
+    /* display: block; */
+    width: 60%;
   }
 
   .maincontent input {
@@ -146,18 +143,16 @@
   
   .bad{
     margin-bottom: 1rem;
+    margin-top: 2rem;
     
   }
   .btn{
-    width: 169px;
-    height: 39px;
-    top: 1016;
-    left: 458px;
-    border-radius: 8pX;
-    padding: 10px;
+    margin-bottom: 2rem;
+  border-radius: 8px;
+  padding: 1rem 3rem;
     background-color: #25588A;
     color: white;
-    position: relative;
+    /* position: relative; */
     border: none;
     outline: none;
   }
@@ -167,10 +162,27 @@
     align-items: center;
     margin-bottom: 2rem;
   }
+
+  .form-group {
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  margin-bottom: 2rem;
+}
   
   .great{
     display: flex;
+    margin-bottom: 2rem;
   }
+
+  .how {
+  background: #ffffff;
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0.75%;
+}
   
   .about{
     display: flex;
@@ -184,9 +196,7 @@
     left: 0px;
     top: 130;
   }
-   .me{
-    text-align: center;
-  }
+  
   .glutton{
     gap:30px;
     padding-right:7rem;
@@ -237,8 +247,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .foot-logo {
   }
   
   .first {
