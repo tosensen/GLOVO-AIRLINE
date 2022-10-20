@@ -18,18 +18,42 @@ body{
 
 .good {
     text-align: center;
-    color: blue;
-    padding-top: 100px;
+    /* padding-top: 100px;
     padding-right: 220px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
+    /* position: absolute; */
+width: 175px;
+height: 44px;
+/* left: 264px; */
+padding-top: 85px;
+align-items: center;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+color: #25588A;
+padding-left: 500px;
 }
-.item2-2{
-    border-radius: 8px;
+
+h5{
+/* position: abs
+width: 89px;
+/* height: 33px; */
+padding-left: 80px;
+ padding-top: 10px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+/* line-height: 33px; */
+color: #88ABC2;
 }
 
 .item2-2{
-    width: 70%;
-    background-color: white;
+    width: 50%;
+    /* background-color: white; */
     height: 420px;
     box-sizing: border-box;
 }
@@ -40,28 +64,33 @@ form{
     width: 85%;
     padding: 32px 0px 0px;
     margin: 25px auto 0px;
+    order: 1px solid #1A1A1A;
 }
 
-input, button{
+/* input {
     border-radius: 5px;
-}
+} */
 
 input{
     height: 30px;
     margin-bottom: 20px;
-    border: 1px grey solid;
-    background: transparent;
+    /* border: 1px grey solid; */
+    /* background: transparent; */
     outline: none;
+    border: 1px solid #1A1A1A;
     padding: 8px;
     font-size: 0.87em;
     font-weight: 500;
-    color: hsl(249, 10%, 26%);
-    background-image: none;
-    transition: background-image 4s 2s ease-in, border-color .5s .5s linear, border-width .5s 1s;
+    color: #1A1A1A;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
 }
 
 ::placeholder{
-    color: hsl(249, 10%, 26%);
+   color: #939393;
     font-size: 1em;
     font-weight: 500;
 }
@@ -82,41 +111,52 @@ input:valid{
     border-width: 2px;
 }
 
-button{
+.submit{
     color: white;
-    background-color: rgb(64, 64, 144);
+    background: #88ABC2;
     border: none;
     outline: none;
     font-size: 0.8em;
     letter-spacing: 0.1em;
     padding: 10px;
-    border-bottom: 3px rgb(40, 40, 43) solid;
     cursor: pointer;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
 }
-button:hover{
+submit:hover{
     background-color: rgb(177, 227, 115);
     color: white;
 }
+.you{
+    color: #88ABC2;
+    /* justify-content: center; */
+    padding-left: 150px;
+    font-size: 16px;
+}
 
-/* button.mine{
-    text-align: center; */
+.gred {
+  font-size: 16px;
+  /* line-height: 21.09px; */
+  font-weight: 400;
+  /* text-align: center; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* align-items: center; */
+  border: none;
+  outline: none;
+  padding-left: 100px;
+  color: #88ABC2;
+  cursor: pointer;
+
+  
 }
-.item2-2 p{
-    padding: 8px 0px;
-    text-align: center;
-    font-size: 0.8em;
-    color: hsl(246, 25%, 77%);
-}
-.item2-2 a:link{
-    text-decoration: none;
-    font-weight: 700;
-    color: hsl(0, 100%, 74%) ;
-}
-.item2-2 a:visited{
-    color: hsl(0, 100%, 74%) ;
-}
-.item2-2 a:hover{
-    color: red;
+
+.glon{
+ padding-left: 180px;  
+ padding-top: 10px; 
+ padding-bottom: 10px;
 }
 
 /* RESPONSIVENESS */
@@ -136,7 +176,4 @@ button:hover{
     .item2-2{
         height: 445px;
     }
-    .item2-2 p{
-        letter-spacing: 0.07em;
-        padding: 5px 25px;
-    }
+    
