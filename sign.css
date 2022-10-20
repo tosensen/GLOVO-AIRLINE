@@ -18,13 +18,7 @@ body{
 
 .good {
     text-align: center;
-    /* padding-top: 100px;
-    padding-right: 220px;
-    padding-bottom: 0px; */
-    /* position: absolute; */
-width: 175px;
-height: 44px;
-/* left: 264px; */
+    
 padding-top: 85px;
 align-items: center;
 font-family: 'Manrope';
@@ -33,7 +27,7 @@ font-weight: 800;
 font-size: 16px;
 /* line-height: 44px; */
 color: #25588A;
-padding-left: 500px;
+padding-left: 10px;
 }
 
 h5{
@@ -164,7 +158,7 @@ submit:hover{
 
 @media screen and (max-width: 912px){
     body{
-        background-image: url(bg-intro-mobile.png);
+        
 }
     .container{
         width: 85%;

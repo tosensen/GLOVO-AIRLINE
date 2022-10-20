@@ -5,26 +5,21 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 body{
-    margin: 0px;
+    /* margin: 0px; */
     padding: 0px;
     background-color: white;
 }
 .container{
     width: 50%;
-    height: 200px;
-    margin: 80px auto 60px;
+    /* height: 200px; */
+    margin: 80px auto 60%;
     display: flex;
+    padding-left: 10px;
 }
 
 .good {
     text-align: center;
-    /* padding-top: 100px;
-    padding-right: 220px;
-    padding-bottom: 0px; */
-    /* position: absolute; */
-width: 175px;
-height: 44px;
-/* left: 264px; */
+   
 padding-top: 85px;
 align-items: center;
 font-family: 'Manrope';
@@ -32,12 +27,11 @@ font-style: normal;
 font-weight: 800;
 font-size: 32px;
 line-height: 44px;
-/* identical to box height */
 color: #25588A;
-padding-left: 500px;
+padding-left: 5px;
 }
 
-h5{
+h3{
 /* position: abs
 width: 89px;
 /* height: 33px; */
@@ -47,7 +41,6 @@ font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
 font-size: 24px;
-/* line-height: 33px; */
 color: #88ABC2;
 }
 
@@ -125,7 +118,8 @@ font-style: normal;
 font-weight: 800;
 font-size: 16px;
 }
-submit:hover{
+
+.submit:hover{
     background-color: rgb(177, 227, 115);
     color: white;
 }
@@ -138,19 +132,14 @@ submit:hover{
 
 .gred {
   font-size: 16px;
-  /* line-height: 21.09px; */
   font-weight: 400;
-  /* text-align: center; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  /* align-items: center; */
   border: none;
   outline: none;
   padding-left: 100px;
   color: #88ABC2;
-  cursor: pointer;
-
-  
+  cursor: pointer; 
 }
 
 .glon{
@@ -163,7 +152,7 @@ submit:hover{
 
 @media screen and (max-width: 912px){
     body{
-        background-image: url(bg-intro-mobile.png);
+    
 }
     .container{
         width: 85%;
