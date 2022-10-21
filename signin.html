@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sign.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="sign.css" />
     <link
-    rel="shortcut icon"
-    href="./icons-pack/Airplane.png"
-    type="image/x-icon"
-  />
+      rel="shortcut icon"
+      href="./icons-pack/Airplane.png"
+      type="image/x-icon"
+    />
     <title>SIGN IN</title>
-</head>
-<body>
-    
-         <div class="good"><p>WELCOME BACK!</p>
-        <h3>Sign in</h3>
-    </div>
-
+  </head>
+  <body>
     <main class="container">
-        <div class="item2-2">
-            <form>
-              <input type="email" id="mail" placeholder="Email Address" required />
-              <input type="password" id="psword" placeholder="Password" minlength="8" maxlength="15" required />
-        <div class="glon">
-        <img src="./icons-pack/Group 20.png" alt=""> Remember me        Forget password? <br> <br>
-</div>
-        <button class="submit">Continue</button><br></br>
+      <div class="item2-2">
+        <div class="good">
+          <p>WELCOME BACK!</p>
+          <h3>Sign in</h3>
+        </div>
+        <form>
+          <input type="email" id="mail" placeholder="Email Address" required />
+          <input
+            type="password"
+            id="psword"
+            placeholder="Password"
+            minlength="8"
+            maxlength="15"
+            required
+          />
+          <div class="glon">
+            <div class="glons">
+              <input type="checkbox" name="" id="" />
+              <p>Remember me</p>
+            </div>
+            <a href="#"><p>Forget password?</p></a>
+          </div>
+          <button class="submit">Continue</button>
         </form>
-        Dont have an account? <a href="signup.html"><button class="gred">  Sign up</button></a>
-    </div>
-  
-  </main>
-</body>
+        <div class="signs">
+          <p>Dont have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+      </div>
+      <div class="sign-img">
+        <img src="./images-pack/sign-up.png" alt="" />
+      </div>
+    </main>
+  </body>
 </html>
