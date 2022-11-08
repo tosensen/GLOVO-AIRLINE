@@ -54,11 +54,11 @@
   .bookingsection {
     display: flex;
     /* width: 100%; */
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: 10px;
     background-color: #F6F9FB;
     /* position: relative; */
-    justify-content: space-around;
+    justify-content: center;
     gap: 3rem;
   }
   
@@ -195,6 +195,11 @@
   .glutton p{
     text-align: center;
   }
+  .glutton a{
+  outline: none;
+  text-decoration: none;
+  
+}
   .me {
     text-align: center;
     padding: 1.5rem;

@@ -62,6 +62,7 @@ nav {
   justify-content: space-around;
   gap: 3rem;
   /* position: relative; */
+  /* background-image: url(./IMAGES/flight-booking/bro.png); */
 }
 
 .bookings {
@@ -188,6 +189,11 @@ nav {
 }
 .glutton p {
   text-align: center;
+}
+.glutton a{
+  outline: none;
+  text-decoration: none;
+  
 }
 .me {
   text-align: center;
