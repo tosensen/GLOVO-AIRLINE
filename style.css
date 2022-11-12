@@ -61,12 +61,11 @@ nav {
 .bookingsection {
   display: flex;
   width: 100%;
-  padding-left: 15px;
+  padding-left: 5px;
   padding-top: 10px;
   background-color: #f6f9fb;
   justify-content: space-around;
-  gap: 3rem;
-  /* position: relative; */
+  gap: 3rem
   /* background-image: url(./IMAGES/flight-booking/bro.png); */
 }
 
