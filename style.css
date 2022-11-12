@@ -10,12 +10,16 @@ body {
   width: 100%;
   background-color: #f5f5f5;
 }
-
+ .logo{
+  padding-left: 50px;
+ }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  padding-left: 35px;
+  
 }
 
 .nav-items ul {
@@ -23,6 +27,7 @@ nav {
   gap: 12px;
   text-decoration: none;
   list-style: none;
+  
 }
 .nav-items ul li a {
   text-decoration: none;
@@ -189,12 +194,15 @@ nav {
 }
 .glutton p {
   text-align: center;
+  text-decoration: none;
+  outline: none;
 }
 .glutton a{
   outline: none;
   text-decoration: none;
-  
+  color: #000000;
 }
+
 .me {
   text-align: center;
   padding: 1.5rem;
